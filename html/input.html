@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Input Data Pasien</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h2>Form Tambah Pasien</h2>
+
+  <form method="POST" action="/cgi-bin/pasien.cgi">
+    <label>Nama: <input type="text" name="nama" required></label><br><br>
+    <label>Usia: <input type="number" name="usia" required></label><br><br>
+    <label>Keluhan: <input type="text" name="keluhan" required></label><br><br>
+    <label>Diagnosis: <input type="text" name="diagnosis" required></label><br><br>
+    <input type="submit" value="Simpan">
+  </form>
+
+  <br>
+  <a href="meditoria.html">Kembali ke Beranda</a>
+</body>
+</html>

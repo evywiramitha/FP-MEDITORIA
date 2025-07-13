@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Beranda Meditoria</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>Sistem Data Pasien</h1>
+
+  <p>Silakan pilih menu:</p>
+
+  <!-- button ke form input cgi nya -->
+  <a href="input.html"><button>Tambah Data Pasien</button></a>
+
+
+  <!-- button lihat riwayat pasien -->
+  <a href="riwayat.html"><button>Lihat Riwayat Pasien</button></a>
+
+
+  <!-- button untuk lihat data -->
+  <form method="GET" action="/cgi-bin/pasien.cgi" style="display:inline;">
+    <input type="hidden" name="lihat" value="1">
+    <input type="submit" value="Lihat Data Pasien">
+  </form>
+</body>
+</html>
