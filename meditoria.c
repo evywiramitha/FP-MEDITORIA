@@ -108,7 +108,6 @@ int main() {
 
     // 3. lihat data pasien + GET
     else if (strcmp(metode, "GET") == 0) {
-        char *query = getenv("QUERY_STRING");
 
         if (query && strstr(query, "lihat=1")) {
             printf("<h2>Daftar Data Pasien</h2>");
